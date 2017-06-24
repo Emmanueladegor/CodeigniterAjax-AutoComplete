@@ -18,7 +18,7 @@ $(document).ready(function () {
                 }
                 $.each(data, function (key,value) {
                     if (data.length >= 0)
-                        $('#DropdownCountry').append('<li role="presentation" ><a role="menuitem dropdownnameli" class="dropdownlivalue">' + value['name'] + '</a></li>');
+                        $('#DropdownCountry').append('<li role="displayCountries" ><a role="menuitem dropdownCountryli" class="dropdownlivalue">' + value['name'] + '</a></li>');
                 });
             }
         });
